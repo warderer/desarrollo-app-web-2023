@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+#poke-info {
+    background-color: rgb(53, 39, 4);
+    padding: 20px 50px;
+}
+
+section {
+    padding: 20px 50px;
+}
+
+#poke-info img {
+    max-width: 50%;    
+}
+
+#poke-info p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.two-columns-text-container {
+    display: flex;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.galeria img {
+    max-width: 20%;
+}
+
+#informacion-general {
+    padding-right: 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+.resaltado-amarillo {
+    background-color: rgb(167, 125, 19);
+    font-weight: bold;
+}
+
+#poke-info h2 {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 40px;
+}
