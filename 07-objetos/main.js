@@ -53,3 +53,8 @@ console.log(pikachu2);
 // Borrar un atributo de un objeto
 delete pikachu2.defensa;
 console.log(pikachu2);
+
+// Forma de traer datos de una API
+fetch('https://swapi.dev/api/people/1/')
+    .then(response => response.json())
+    .then(data => console.log(data.name));
